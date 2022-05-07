@@ -10,7 +10,6 @@ import numpy as np
 import time
 start_time = time.time()
 
-
 def sieve_of_eratosthenes(max_num):
     primes = []
     flags = np.ones(max_num, dtype=bool)
